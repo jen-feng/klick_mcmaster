@@ -5,6 +5,7 @@ import './Survey.css';
 import deleteIcon from './delete.png';
 import addIcon from './add.png';
 import editIcon from './edit.png';
+import ReactDOM from 'react-dom';
 
 class Survey extends React.Component {
 
@@ -12,7 +13,7 @@ class Survey extends React.Component {
     super(props);
     this.state = {
       items: [], nextID: 0, editIndex: 0, q: "What", input: "Choose a question", answer: "", mode: "Add",
-      inputType: 0, file: null, border: "1px solid grey",
+      inputType: 0, file: null, border: "1px solid grey", edit: false,
       questions: ["What's the most instersting course you have taken?",
         "What's the most worried thing for the semester?",
         "What are you happy about right now?",
@@ -107,43 +108,116 @@ class Survey extends React.Component {
       <div>
         <div className="background">d</div>
         <div className="container">
-          <div className="form-container">
-            <div>
+          {this.state.edit ?
+            <div className="form-container">
+              <div>
+                <div className="title-container">
+                  <h1>Self-Survey Form</h1>
+                  <p id="Star">*Add more questions and answers to let people know more about about you</p>
+                </div>
+              </div>
+              <ul>
+                {
+                  this.state.items.map(
+                    ({ item, ans, id }) =>
+                      <div className="whole-box">
+                        {this.state.mode == "Edit" && this.state.editIndex == id ?
+                          <div className="edit-box">
+                            <div className="edit-form">
+                              <Form.Group className="left-box">
+                                <div className="bar">d</div>
+                                <div>
+                                  <DropdownButton className="question" variant="none" id="dropdown-basic-button" title={this.state.input}>
+                                    {this.state.questions.map(
+                                      (q) =>
+                                        <Dropdown.Item key={q} onClick={(event) => this.setState({ input: q })}>
+                                          <span onClick=""> {q} </span>
+                                        </Dropdown.Item>)}
+                                  </DropdownButton>
+                                  <Form.Control type="textarea" placeholder="Write a description"
+                                    onChange={(event) => this.setState({ answer: event.target.value })}
+                                    value={this.state.answer} />
+                                </div>
+
+                              </Form.Group>
+                            </div>
+                            <p className="save" onClick={this.submit.bind(this)} >
+                              save
+                                    </p>
+                          </div>
+                          :
+                          <li key={id}>
+                            <div className="content-box">
+                              <div className="question">
+                                {item}
+                              </div>
+                              <div className="description">
+                                {ans}
+                              </div>
+                            </div>
+                            <div className="button-container">
+                              <img id="Edit" onClick={this.edit.bind(this, id)} src={editIcon} alt="edit" />
+                              <img id="Delete" onClick={this.delete.bind(this, id)} src={deleteIcon} alt="delete" />
+                            </div>
+                          </li>}
+
+                      </div>
+                  )}
+              </ul>
+              <div className="add-container">
+                {this.state.mode == "Add" ?
+                  <div className="add-box" onClick={this.submit.bind(this)}>
+                    <img id="Add" src={addIcon} alt="add" />
+                    <p id="AddText">Add a question</p>
+                  </div>
+
+                  : (this.state.mode == "Adding" ?
+                    <div className="edit-box">
+                      <Form.Group className="left-box">
+                        <div className="bar">d</div>
+                        <div>
+                          <DropdownButton variant="none" id="dropdown-basic-button" title={this.state.input}>
+                            {this.state.questions.map(
+                              (q) =>
+                                <Dropdown.Item key={q} onClick={(event) => this.setState({ input: q })}>
+                                  <span onClick=""> {q} </span>
+                                </Dropdown.Item>)}
+                          </DropdownButton>
+                          <Form.Control type="textarea" placeholder="Write a description"
+                            onChange={(event) => this.setState({ answer: event.target.value })}
+                            value={this.state.answer} />
+                        </div>
+
+                      </Form.Group>
+                      <p className="save" onClick={this.submit.bind(this)} >
+                        save
+                            </p>
+                    </div> : null)
+                }
+
+              </div>
+              {this.state.mode != "Add" ?
+                <div className="button-container">
+                  <Button id="Submit" variant="none" style={{backgroundColor: "lightgrey"}}>Save</Button>
+                </div>
+                :
+                <div className="button-container">
+                  <Button id="Submit" variant="primary" onClick={() => this.setState({ edit: false })}>Save</Button>
+                </div>
+              }
+
+            </div>
+            :
+            <div className="form-container">
               <div className="title-container">
                 <h1>Self-Survey Form</h1>
                 <p id="Star">*Add more questions and answers to let people know more about about you</p>
               </div>
-            </div>
-            <ul>
-              {
-                this.state.items.map(
-                  ({ item, ans, id }) =>
-                    <div className="whole-box">
-                      {this.state.mode == "Edit" && this.state.editIndex == id ?
-                        <div className="edit-box">
-                          <div className="edit-form">
-                            <Form.Group className="left-box">
-                              <div className="bar">d</div>
-                              <div>
-                                <DropdownButton className="question" variant="none" id="dropdown-basic-button" title={this.state.input}>
-                                  {this.state.questions.map(
-                                    (q) =>
-                                      <Dropdown.Item key={q} onClick={(event) => this.setState({ input: q })}>
-                                        <span onClick=""> {q} </span>
-                                      </Dropdown.Item>)}
-                                </DropdownButton>
-                                <Form.Control type="textarea" placeholder="Write a description"
-                                  onChange={(event) => this.setState({ answer: event.target.value })}
-                                  value={this.state.answer} />
-                              </div>
-
-                            </Form.Group>
-                          </div>
-                          <p className="save" onClick={this.submit.bind(this)} >
-                            save
-                          </p>
-                        </div>
-                        :
+              <ul>
+                {
+                  this.state.items.map(
+                    ({ item, ans, id }) =>
+                      <div className="whole-box">
                         <li key={id}>
                           <div className="content-box">
                             <div className="question">
@@ -153,53 +227,16 @@ class Survey extends React.Component {
                               {ans}
                             </div>
                           </div>
-                          <div className="button-container">
-                            <img id="Edit" onClick={this.edit.bind(this, id)} src={editIcon} alt="edit" />
-                            <img id="Delete" onClick={this.delete.bind(this, id)} src={deleteIcon} alt="delete" />
-                          </div>
-                        </li>}
-
-                    </div>
-                )}
-            </ul>
-            <div className="add-container">
-              {this.state.mode == "Add" ?
-                <div className="add-box" onClick={this.submit.bind(this)}>
-                  <img id="Add" src={addIcon} alt="add" />
-                  <p id="AddText">Add a question</p>
-                </div>
-
-                : (this.state.mode == "Adding" ?
-                  <div className="edit-box">
-                    <Form.Group className="left-box">
-                      <div className="bar">d</div>
-                      <div>
-                        <DropdownButton variant="none" id="dropdown-basic-button" title={this.state.input}>
-                          {this.state.questions.map(
-                            (q) =>
-                              <Dropdown.Item key={q} onClick={(event) => this.setState({ input: q })}>
-                                <span onClick=""> {q} </span>
-                              </Dropdown.Item>)}
-                        </DropdownButton>
-                        <Form.Control type="textarea" placeholder="Write a description"
-                          onChange={(event) => this.setState({ answer: event.target.value })}
-                          value={this.state.answer} />
+                        </li>
                       </div>
-
-                    </Form.Group>
-                    <p className="save" onClick={this.submit.bind(this)} >
-                      save
-                  </p>
-                  </div> : null)
-              }
-
+                  )}
+              </ul>
+              <div className="button-container">
+                <Button id="Submit" variant="primary" onClick={() => this.setState({ edit: true })}>Edit</Button>
+              </div>
             </div>
-            <div className="button-container">
-              <Button variant="light" onClick="">Skip</Button>
-              <Button id="Submit" variant="primary" onClick="">Submit</Button>
-            </div>
-          </div>
 
+          }
         </div >
       </div>
 

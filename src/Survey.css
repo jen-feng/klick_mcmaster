@@ -128,7 +128,7 @@ li {
 }
 
 .button-container{
-  display: flex;
+  text-align: right;
   justify-content: space-between;
   padding: 20px 0;
 }
