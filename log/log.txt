@@ -1,0 +1,224 @@
+As of 2020-11-15 16:21:00
+683dbd24 - fengchej, 20 minutes ago : add chat page
+c0f6d31a - Suri Jia, 27 minutes ago : Merge pull request #24 from leij11/sur                                 i-index-root
+2896aaf0 - srixx18, 28 minutes ago : index in root
+3e198b5e - Jenny Feng, 3 hours ago : Merge pull request #23 from jen-feng/ma                                 ster
+160a4c00 - fengchej, 3 hours ago : chat source code
+3ff528e3 - Jenny Feng, 3 hours ago : Merge pull request #22 from jen-feng/ma                                 ster
+7b0be697 - fengchej, 3 hours ago : change images url
+f7c4863b - Jenny Feng, 4 hours ago : Merge pull request #21 from jen-feng/ma                                 ster
+a0cd6aef - fengchej, 4 hours ago : build static html
+e2ebb152 - leij11, 4 hours ago : Merge branch 'master' of https://github.com                                 /leij11/klick_mcmaster
+8cc847d7 - leij11, 4 hours ago : Fix Filter in Matching
+c2553015 - Suri Jia, 4 hours ago : Merge pull request #20 from leij11/suri-c                                 lean-up
+5b78c334 - srixx18, 4 hours ago : delete dsstore
+66946222 - Suri Jia, 4 hours ago : Delete .DS_Store
+f9dd28b0 - srixx18, 4 hours ago : code clean up, replaced sample with real d                                 ata
+e40ebb23 - leij11, 4 hours ago : Style Change
+eac4be20 - leij11, 5 hours ago : Fix Button in Discussion
+5e285361 - leij11, 5 hours ago : Merge branch 'master' of https://github.com                                 /leij11/klick_mcmaster
+fd316f5a - leij11, 5 hours ago : Add comment in discussion
+a1565566 - Jenny Feng, 6 hours ago : Merge pull request #19 from jen-feng/ma                                 ster
+f1100011 - fengchej, 6 hours ago : add chat button in match page
+cbf1710d - Jenny Feng, 7 hours ago : Merge pull request #18 from jen-feng/ma                                 ster
+b5b02504 - fengchej, 7 hours ago : added static chat page
+3e0f7672 - leij11, 14 hours ago : Change Discussion Section Style
+fcb724e2 - leij11, 16 hours ago : Add Analysis Filter
+26b46278 - leij11, 17 hours ago : Merge branch 'master' of https://github.co                                 m/leij11/klick_mcmaster
+f624367b - leij11, 17 hours ago : Style Matching Page
+3b18ce94 - Suri Jia, 19 hours ago : Merge pull request #17 from leij11/explo                                 re-post-photo
+80d68cc3 - srixx18, 19 hours ago : header colour change on click
+120e7fcd - Suri Jia, 21 hours ago : Merge pull request #16 from leij11/suri-                                 fix-routing-input
+b1c689d1 - srixx18, 21 hours ago : fix textbox input
+95829244 - Jenny Feng, 22 hours ago : Merge pull request #15 from jen-feng/m                                 aster
+a630e5bf - fengchej, 22 hours ago : restyle sidebar router
+2e9b084b - fengchej, 23 hours ago : fix profile router, background color and                                  navbar
+9d137278 - Jenny Feng, 23 hours ago : Merge pull request #14 from jen-feng/m                                 aster
+34b735df - fengchej, 23 hours ago : add location page
+02d4163c - Suri Jia, 24 hours ago : Merge pull request #13 from leij11/suri-                                 route
+9ebc5f98 - Suri Jia, 24 hours ago : Merge branch 'master' into suri-route
+9a795f3d - srixx18, 24 hours ago : added routing
+92e94c8c - Jenny Feng, 24 hours ago : Merge pull request #12 from jen-feng/m                                 aster
+d2144e0d - fengchej, 24 hours ago : add survey to sidebar router
+7c68743b - Suri Jia, 25 hours ago : Merge pull request #11 from leij11/suri-                                 profile-style
+5b96ae79 - srixx18, 25 hours ago : adjust profile width
+e956877b - fengchej, 25 hours ago : Merge https://github.com/leij11/klick_mc                                 master
+58dd2d0e - Suri Jia, 25 hours ago : Merge pull request #10 from leij11/suri-                                 header-change
+b99f5247 - srixx18, 25 hours ago : remove nodes
+892a8650 - srixx18, 25 hours ago : change ignore folder
+2fc9eb05 - srixx18, 25 hours ago : fixed style issue
+d0f3cb51 - leij11, 27 hours ago : Jessica Change
+b7cdf1d3 - leij11, 27 hours ago : Merge branch 'master' of https://github.co                                 m/leij11/klick_mcmaster
+:...skipping...
+683dbd24 - fengchej, 20 minutes ago : add chat page
+c0f6d31a - Suri Jia, 27 minutes ago : Merge pull request #24 from leij11/suri-index-root
+2896aaf0 - srixx18, 28 minutes ago : index in root
+3e198b5e - Jenny Feng, 3 hours ago : Merge pull request #23 from jen-feng/master
+160a4c00 - fengchej, 3 hours ago : chat source code
+3ff528e3 - Jenny Feng, 3 hours ago : Merge pull request #22 from jen-feng/master
+7b0be697 - fengchej, 3 hours ago : change images url
+f7c4863b - Jenny Feng, 4 hours ago : Merge pull request #21 from jen-feng/master
+a0cd6aef - fengchej, 4 hours ago : build static html
+e2ebb152 - leij11, 4 hours ago : Merge branch 'master' of https://github.com/leij11/klick_mcmaster
+8cc847d7 - leij11, 4 hours ago : Fix Filter in Matching
+c2553015 - Suri Jia, 4 hours ago : Merge pull request #20 from leij11/suri-clean-up
+5b78c334 - srixx18, 4 hours ago : delete dsstore
+66946222 - Suri Jia, 4 hours ago : Delete .DS_Store
+f9dd28b0 - srixx18, 4 hours ago : code clean up, replaced sample with real data
+e40ebb23 - leij11, 4 hours ago : Style Change
+eac4be20 - leij11, 5 hours ago : Fix Button in Discussion
+5e285361 - leij11, 5 hours ago : Merge branch 'master' of https://github.com/leij11/klick_mcmaster
+fd316f5a - leij11, 5 hours ago : Add comment in discussion
+a1565566 - Jenny Feng, 6 hours ago : Merge pull request #19 from jen-feng/master
+f1100011 - fengchej, 6 hours ago : add chat button in match page
+cbf1710d - Jenny Feng, 7 hours ago : Merge pull request #18 from jen-feng/master
+b5b02504 - fengchej, 7 hours ago : added static chat page
+3e0f7672 - leij11, 14 hours ago : Change Discussion Section Style
+fcb724e2 - leij11, 16 hours ago : Add Analysis Filter
+26b46278 - leij11, 17 hours ago : Merge branch 'master' of https://github.com/leij11/klick_mcmaster
+f624367b - leij11, 17 hours ago : Style Matching Page
+3b18ce94 - Suri Jia, 19 hours ago : Merge pull request #17 from leij11/explore-post-photo
+80d68cc3 - srixx18, 19 hours ago : header colour change on click
+120e7fcd - Suri Jia, 21 hours ago : Merge pull request #16 from leij11/suri-fix-routing-input
+b1c689d1 - srixx18, 21 hours ago : fix textbox input
+95829244 - Jenny Feng, 22 hours ago : Merge pull request #15 from jen-feng/master
+a630e5bf - fengchej, 22 hours ago : restyle sidebar router
+2e9b084b - fengchej, 23 hours ago : fix profile router, background color and navbar
+9d137278 - Jenny Feng, 23 hours ago : Merge pull request #14 from jen-feng/master
+34b735df - fengchej, 23 hours ago : add location page
+02d4163c - Suri Jia, 24 hours ago : Merge pull request #13 from leij11/suri-route
+9ebc5f98 - Suri Jia, 24 hours ago : Merge branch 'master' into suri-route
+9a795f3d - srixx18, 24 hours ago : added routing
+92e94c8c - Jenny Feng, 24 hours ago : Merge pull request #12 from jen-feng/master
+d2144e0d - fengchej, 24 hours ago : add survey to sidebar router
+7c68743b - Suri Jia, 25 hours ago : Merge pull request #11 from leij11/suri-profile-style
+5b96ae79 - srixx18, 25 hours ago : adjust profile width
+e956877b - fengchej, 25 hours ago : Merge https://github.com/leij11/klick_mcmaster
+58dd2d0e - Suri Jia, 25 hours ago : Merge pull request #10 from leij11/suri-header-change
+b99f5247 - srixx18, 25 hours ago : remove nodes
+892a8650 - srixx18, 25 hours ago : change ignore folder
+2fc9eb05 - srixx18, 25 hours ago : fixed style issue
+d0f3cb51 - leij11, 27 hours ago : Jessica Change
+b7cdf1d3 - leij11, 27 hours ago : Merge branch 'master' of https://github.com/leij11/klick_mcmaster
+1cb9465f - leij11, 28 hours ago : Merge branch 'jessica'
+2ece3663 - fengchej, 28 hours ago : Merge https://github.com/leij11/klick_mcmaster
+e4c6f8d2 - Suri Jia, 28 hours ago : Delete .DS_Store
+11095b36 - Suri Jia, 28 hours ago : Merge pull request #9 from leij11/remove-node
+c96f232d - srixx18, 28 hours ago : remove node folder
+8012e75d - leij11, 28 hours ago : Style Change
+7385fa3d - fengchej, 28 hours ago : delete nodes
+ff0a5035 - Suri Jia, 2 days ago : Merge pull request #8 from leij11/suri-profile
+a1db910f - srixx18, 2 days ago : edit profile photo complete
+66bf6696 - leij11, 2 days ago : Profile
+b54b6477 - srixx18, 2 days ago : add homepage in project
+a4d5131e - srixx18, 2 days ago : missing photo edit
+37de8e67 - Suri Jia, 2 days ago : Delete .DS_Store
+62fa8e53 - Suri Jia, 2 days ago : Merge pull request #7 from leij11/suri-setting
+5da1f289 - srixx18, 2 days ago : sort and filter success
+7839d9aa - srixx18, 2 days ago : static settings page
+6d232d7a - Suri Jia, 2 days ago : Merge pull request #5 from leij11/explore-on-action
+557f199e - srixx18, 2 days ago : finished styling popup
+4b41e889 - srixx18, 2 days ago : added modal for each post
+443dae1c - srixx18, 2 days ago : finished styling
+bd7db259 - srixx18, 2 days ago : like and comment
+dc308f9c - Suri Jia, 3 days ago : Merge pull request #4 from leij11/suri-settings
+415076ef - srixx18, 3 days ago : moved all images to subfolder
+e9922e66 - srixx18, 3 days ago : created placeholder files for settings
+d1b6c221 - Suri Jia, 3 days ago : Merge pull request #3 from leij11/suri-explore
+f6988d35 - srixx18, 3 days ago : explore basic layout and like function
+1c487079 - leij11, 3 days ago : Fix form feature in discussion page
+96324061 - srixx18, 3 days ago : Explore page basic structure
+3580c747 - leij11, 3 days ago : Style Analytics
+:...skipping...
+683dbd24 - fengchej, 20 minutes ago : add chat page
+c0f6d31a - Suri Jia, 27 minutes ago : Merge pull request #24 from leij11/suri-index-root
+2896aaf0 - srixx18, 28 minutes ago : index in root
+3e198b5e - Jenny Feng, 3 hours ago : Merge pull request #23 from jen-feng/master
+160a4c00 - fengchej, 3 hours ago : chat source code
+3ff528e3 - Jenny Feng, 3 hours ago : Merge pull request #22 from jen-feng/master
+7b0be697 - fengchej, 3 hours ago : change images url
+f7c4863b - Jenny Feng, 4 hours ago : Merge pull request #21 from jen-feng/master
+a0cd6aef - fengchej, 4 hours ago : build static html
+e2ebb152 - leij11, 4 hours ago : Merge branch 'master' of https://github.com/leij11/klick_mcmaster
+8cc847d7 - leij11, 4 hours ago : Fix Filter in Matching
+c2553015 - Suri Jia, 4 hours ago : Merge pull request #20 from leij11/suri-clean-up
+5b78c334 - srixx18, 4 hours ago : delete dsstore
+66946222 - Suri Jia, 4 hours ago : Delete .DS_Store
+f9dd28b0 - srixx18, 4 hours ago : code clean up, replaced sample with real data
+e40ebb23 - leij11, 4 hours ago : Style Change
+eac4be20 - leij11, 5 hours ago : Fix Button in Discussion
+5e285361 - leij11, 5 hours ago : Merge branch 'master' of https://github.com/leij11/klick_mcmaster
+fd316f5a - leij11, 5 hours ago : Add comment in discussion
+a1565566 - Jenny Feng, 6 hours ago : Merge pull request #19 from jen-feng/master
+f1100011 - fengchej, 6 hours ago : add chat button in match page
+cbf1710d - Jenny Feng, 7 hours ago : Merge pull request #18 from jen-feng/master
+b5b02504 - fengchej, 7 hours ago : added static chat page
+3e0f7672 - leij11, 14 hours ago : Change Discussion Section Style
+fcb724e2 - leij11, 16 hours ago : Add Analysis Filter
+26b46278 - leij11, 17 hours ago : Merge branch 'master' of https://github.com/leij11/klick_mcmaster
+f624367b - leij11, 17 hours ago : Style Matching Page
+3b18ce94 - Suri Jia, 19 hours ago : Merge pull request #17 from leij11/explore-post-photo
+80d68cc3 - srixx18, 19 hours ago : header colour change on click
+120e7fcd - Suri Jia, 21 hours ago : Merge pull request #16 from leij11/suri-fix-routing-input
+b1c689d1 - srixx18, 21 hours ago : fix textbox input
+95829244 - Jenny Feng, 22 hours ago : Merge pull request #15 from jen-feng/master
+a630e5bf - fengchej, 22 hours ago : restyle sidebar router
+2e9b084b - fengchej, 23 hours ago : fix profile router, background color and navbar
+9d137278 - Jenny Feng, 23 hours ago : Merge pull request #14 from jen-feng/master
+34b735df - fengchej, 23 hours ago : add location page
+02d4163c - Suri Jia, 24 hours ago : Merge pull request #13 from leij11/suri-route
+9ebc5f98 - Suri Jia, 24 hours ago : Merge branch 'master' into suri-route
+9a795f3d - srixx18, 24 hours ago : added routing
+92e94c8c - Jenny Feng, 24 hours ago : Merge pull request #12 from jen-feng/master
+d2144e0d - fengchej, 24 hours ago : add survey to sidebar router
+7c68743b - Suri Jia, 25 hours ago : Merge pull request #11 from leij11/suri-profile-style
+5b96ae79 - srixx18, 25 hours ago : adjust profile width
+e956877b - fengchej, 25 hours ago : Merge https://github.com/leij11/klick_mcmaster
+58dd2d0e - Suri Jia, 25 hours ago : Merge pull request #10 from leij11/suri-header-change
+b99f5247 - srixx18, 25 hours ago : remove nodes
+892a8650 - srixx18, 25 hours ago : change ignore folder
+2fc9eb05 - srixx18, 25 hours ago : fixed style issue
+d0f3cb51 - leij11, 27 hours ago : Jessica Change
+b7cdf1d3 - leij11, 27 hours ago : Merge branch 'master' of https://github.com/leij11/klick_mcmaster
+1cb9465f - leij11, 28 hours ago : Merge branch 'jessica'
+2ece3663 - fengchej, 28 hours ago : Merge https://github.com/leij11/klick_mcmaster
+e4c6f8d2 - Suri Jia, 28 hours ago : Delete .DS_Store
+11095b36 - Suri Jia, 28 hours ago : Merge pull request #9 from leij11/remove-node
+c96f232d - srixx18, 28 hours ago : remove node folder
+8012e75d - leij11, 28 hours ago : Style Change
+7385fa3d - fengchej, 28 hours ago : delete nodes
+ff0a5035 - Suri Jia, 2 days ago : Merge pull request #8 from leij11/suri-profile
+a1db910f - srixx18, 2 days ago : edit profile photo complete
+66bf6696 - leij11, 2 days ago : Profile
+b54b6477 - srixx18, 2 days ago : add homepage in project
+a4d5131e - srixx18, 2 days ago : missing photo edit
+37de8e67 - Suri Jia, 2 days ago : Delete .DS_Store
+62fa8e53 - Suri Jia, 2 days ago : Merge pull request #7 from leij11/suri-setting
+5da1f289 - srixx18, 2 days ago : sort and filter success
+7839d9aa - srixx18, 2 days ago : static settings page
+6d232d7a - Suri Jia, 2 days ago : Merge pull request #5 from leij11/explore-on-action
+557f199e - srixx18, 2 days ago : finished styling popup
+4b41e889 - srixx18, 2 days ago : added modal for each post
+443dae1c - srixx18, 2 days ago : finished styling
+bd7db259 - srixx18, 2 days ago : like and comment
+dc308f9c - Suri Jia, 3 days ago : Merge pull request #4 from leij11/suri-settings
+415076ef - srixx18, 3 days ago : moved all images to subfolder
+e9922e66 - srixx18, 3 days ago : created placeholder files for settings
+d1b6c221 - Suri Jia, 3 days ago : Merge pull request #3 from leij11/suri-explore
+f6988d35 - srixx18, 3 days ago : explore basic layout and like function
+1c487079 - leij11, 3 days ago : Fix form feature in discussion page
+96324061 - srixx18, 3 days ago : Explore page basic structure
+3580c747 - leij11, 3 days ago : Style Analytics
+563f671d - leij11, 3 days ago : Feat analytics feature
+0bf96e60 - srixx18, 3 days ago : initialize explore page
+65934d62 - leij11, 4 days ago : Adding sections
+a82e598d - Suri Jia, 4 days ago : Merge pull request #1 from leij11/suri-header
+0192bd6d - srixx18, 4 days ago : Merge branch 'suri-header' of https://github.com/leij11/klick_mcmaster into suri-header
+0578b950 - srixx18, 4 days ago : check git creds again
+a3dca413 - suri.jia@hotmail.com, 4 days ago : check git creds
+9939f4ff - Suri Jia, 4 days ago : profile page basics
+fa11c58e - Suri Jia, 4 days ago : modified favicon for branding
+b38f0825 - leij11, 5 days ago : Style Discussion
+e94966e7 - leij11, 5 days ago : Add discussion page
+d1f778fc - leij11, 7 days ago : Set up routes
+a79e9514 - Suri Jia, 3 weeks ago : create react app

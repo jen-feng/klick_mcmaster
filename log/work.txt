@@ -1,0 +1,18 @@
+srixx18(aka Suri Jia)
+leij11(aka Jessica Lei)
+fengchej(aka Jenny Feng)
+
+Suri Jia - worked on Profile related functions and styles
+Suri Jia - worked on Explore related functions and styles
+Suri Jia - worked on ExploreSetting related functions and styles
+Suri Jia - worked on Header(top navigation bar) related functions and styles
+
+Jessica - worked on Discussion related functions and styles
+Jessica - worked on Match related functions and styles
+Jessica - worked on Analytics related functions and styles
+Jessica - helped with navigation logistic
+
+Jenny Feng - worked on Survey related functions and styles
+Jenny Feng - worked on Location related functions and styles
+Jenny Feng - worked on Chat related functions and styles
+Jenny Feng - helped with building static html properly
